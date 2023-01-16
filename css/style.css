@@ -9,3 +9,25 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+.hero{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../assets/vector-1.png); 
+}
+
+.nav-bar{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    padding: 30px;
+}
+
+.nav-bar .menu{
+    grid-column: 6/9;
+    display: flex;
+}
+
+.menu-bar{
+    display: none;
+}
+
